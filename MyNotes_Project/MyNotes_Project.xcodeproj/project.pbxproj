@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED30660C1C907EE000380DD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED30660B1C907EE000380DD8 /* main.m */; };
+		ED30660F1C907EE000380DD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED30660E1C907EE000380DD8 /* AppDelegate.m */; };
+		ED3066151C907EE000380DD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3066131C907EE000380DD8 /* Main.storyboard */; };
+		ED3066171C907EE000380DD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED3066161C907EE000380DD8 /* Assets.xcassets */; };
+		ED30661A1C907EE000380DD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3066181C907EE000380DD8 /* LaunchScreen.storyboard */; };
+		ED3066261C907FA200380DD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3066251C907FA200380DD8 /* ViewController.m */; };
+		ED3066291C907FDB00380DD8 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3066281C907FDB00380DD8 /* Note.m */; };
+		ED30662C1C907FE600380DD8 /* NoteDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = ED30662B1C907FE600380DD8 /* NoteDAO.m */; };
+		ED30662F1C907FF400380DD8 /* NoteBL.m in Sources */ = {isa = PBXBuildFile; fileRef = ED30662E1C907FF400380DD8 /* NoteBL.m */; };
+		ED3066321C90805200380DD8 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3066311C90805200380DD8 /* AddViewController.m */; };
+		ED3066351C90805F00380DD8 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3066341C90805F00380DD8 /* MasterViewController.m */; };
+		ED3066381C90806E00380DD8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3066371C90806E00380DD8 /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED3066071C907EE000380DD8 /* MyNotes_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNotes_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED30660B1C907EE000380DD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED30660D1C907EE000380DD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		ED30660E1C907EE000380DD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		ED3066141C907EE000380DD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED3066161C907EE000380DD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED3066191C907EE000380DD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED30661B1C907EE000380DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED3066241C907FA200380DD8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED3066251C907FA200380DD8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED3066271C907FDB00380DD8 /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		ED3066281C907FDB00380DD8 /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		ED30662A1C907FE500380DD8 /* NoteDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteDAO.h; sourceTree = "<group>"; };
+		ED30662B1C907FE600380DD8 /* NoteDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteDAO.m; sourceTree = "<group>"; };
+		ED30662D1C907FF400380DD8 /* NoteBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteBL.h; sourceTree = "<group>"; };
+		ED30662E1C907FF400380DD8 /* NoteBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteBL.m; sourceTree = "<group>"; };
+		ED3066301C90805200380DD8 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		ED3066311C90805200380DD8 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		ED3066331C90805F00380DD8 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		ED3066341C90805F00380DD8 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		ED3066361C90806E00380DD8 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		ED3066371C90806E00380DD8 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED3066041C907EE000380DD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED3065FE1C907EE000380DD8 = {
+			isa = PBXGroup;
+			children = (
+				ED3066091C907EE000380DD8 /* MyNotes_Project */,
+				ED3066081C907EE000380DD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED3066081C907EE000380DD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED3066071C907EE000380DD8 /* MyNotes_Project.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED3066091C907EE000380DD8 /* MyNotes_Project */ = {
+			isa = PBXGroup;
+			children = (
+				ED3066221C907FA200380DD8 /* PersistenceLayer */,
+				ED3066211C907FA200380DD8 /* BusinessLogicLayer */,
+				ED3066231C907FA200380DD8 /* PresentationLayer */,
+				ED3066161C907EE000380DD8 /* Assets.xcassets */,
+				ED30661B1C907EE000380DD8 /* Info.plist */,
+				ED30660A1C907EE000380DD8 /* Supporting Files */,
+			);
+			path = MyNotes_Project;
+			sourceTree = "<group>";
+		};
+		ED30660A1C907EE000380DD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED30660B1C907EE000380DD8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED3066211C907FA200380DD8 /* BusinessLogicLayer */ = {
+			isa = PBXGroup;
+			children = (
+				ED30662D1C907FF400380DD8 /* NoteBL.h */,
+				ED30662E1C907FF400380DD8 /* NoteBL.m */,
+			);
+			path = BusinessLogicLayer;
+			sourceTree = "<group>";
+		};
+		ED3066221C907FA200380DD8 /* PersistenceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				ED3066271C907FDB00380DD8 /* Note.h */,
+				ED3066281C907FDB00380DD8 /* Note.m */,
+				ED30662A1C907FE500380DD8 /* NoteDAO.h */,
+				ED30662B1C907FE600380DD8 /* NoteDAO.m */,
+			);
+			path = PersistenceLayer;
+			sourceTree = "<group>";
+		};
+		ED3066231C907FA200380DD8 /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				ED3066241C907FA200380DD8 /* ViewController.h */,
+				ED3066251C907FA200380DD8 /* ViewController.m */,
+				ED3066301C90805200380DD8 /* AddViewController.h */,
+				ED3066311C90805200380DD8 /* AddViewController.m */,
+				ED3066331C90805F00380DD8 /* MasterViewController.h */,
+				ED3066341C90805F00380DD8 /* MasterViewController.m */,
+				ED3066361C90806E00380DD8 /* DetailViewController.h */,
+				ED3066371C90806E00380DD8 /* DetailViewController.m */,
+				ED3066181C907EE000380DD8 /* LaunchScreen.storyboard */,
+				ED30660D1C907EE000380DD8 /* AppDelegate.h */,
+				ED30660E1C907EE000380DD8 /* AppDelegate.m */,
+				ED3066131C907EE000380DD8 /* Main.storyboard */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED3066061C907EE000380DD8 /* MyNotes_Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED30661E1C907EE000380DD8 /* Build configuration list for PBXNativeTarget "MyNotes_Project" */;
+			buildPhases = (
+				ED3066031C907EE000380DD8 /* Sources */,
+				ED3066041C907EE000380DD8 /* Frameworks */,
+				ED3066051C907EE000380DD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyNotes_Project;
+			productName = MyNotes_Project;
+			productReference = ED3066071C907EE000380DD8 /* MyNotes_Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED3065FF1C907EE000380DD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xindongai;
+				TargetAttributes = {
+					ED3066061C907EE000380DD8 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = ED3066021C907EE000380DD8 /* Build configuration list for PBXProject "MyNotes_Project" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED3065FE1C907EE000380DD8;
+			productRefGroup = ED3066081C907EE000380DD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED3066061C907EE000380DD8 /* MyNotes_Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED3066051C907EE000380DD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED30661A1C907EE000380DD8 /* LaunchScreen.storyboard in Resources */,
+				ED3066171C907EE000380DD8 /* Assets.xcassets in Resources */,
+				ED3066151C907EE000380DD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED3066031C907EE000380DD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED30662C1C907FE600380DD8 /* NoteDAO.m in Sources */,
+				ED30662F1C907FF400380DD8 /* NoteBL.m in Sources */,
+				ED3066381C90806E00380DD8 /* DetailViewController.m in Sources */,
+				ED30660F1C907EE000380DD8 /* AppDelegate.m in Sources */,
+				ED3066321C90805200380DD8 /* AddViewController.m in Sources */,
+				ED3066351C90805F00380DD8 /* MasterViewController.m in Sources */,
+				ED3066261C907FA200380DD8 /* ViewController.m in Sources */,
+				ED30660C1C907EE000380DD8 /* main.m in Sources */,
+				ED3066291C907FDB00380DD8 /* Note.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED3066131C907EE000380DD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED3066141C907EE000380DD8 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		ED3066181C907EE000380DD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED3066191C907EE000380DD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED30661C1C907EE000380DD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED30661D1C907EE000380DD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED30661F1C907EE000380DD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyNotes_Project/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xindongai.app.MyNotes-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED3066201C907EE000380DD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyNotes_Project/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xindongai.app.MyNotes-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED3066021C907EE000380DD8 /* Build configuration list for PBXProject "MyNotes_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED30661C1C907EE000380DD8 /* Debug */,
+				ED30661D1C907EE000380DD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED30661E1C907EE000380DD8 /* Build configuration list for PBXNativeTarget "MyNotes_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED30661F1C907EE000380DD8 /* Debug */,
+				ED3066201C907EE000380DD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED3065FF1C907EE000380DD8 /* Project object */;
+}
